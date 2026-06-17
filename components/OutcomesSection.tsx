@@ -13,7 +13,7 @@ const outcomes = [
       'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/GenIA%20image-bifXnjbJQDwNYkabtXMVuYaxWvCKpT.png',
     imageAlt: 'GenIA AI Assistant app interface on a tablet',
     bgDark: true,
-    href: 'https://drive.google.com/file/d/1RJKzjZgLoGqdf_JGxM6Ljr500bjLD6j4/view?usp=drive_link',
+    href: 'https://drive.google.com/file/d/1TB-jlOg0fDfUrzwWYxd1EH7WDKK_4OHl/view?usp=sharing',
   },
   {
     id: 'hype',
@@ -24,7 +24,7 @@ const outcomes = [
       'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hype%20image-HXLlEL8Gy78olvI2kcF32c1QYHwtjO.png',
     imageAlt: 'Hype content generation tool — collage of content creators',
     bgDark: false,
-    href: 'https://drive.google.com/file/d/14WcGFnXQwwFigQtcXmZ6OSho81XFHyaK/view?usp=drive_link',
+    href: 'https://drive.google.com/file/d/1CDjsT51IBYWBBVNQnlmET_tz85L-wyFh/view?usp=sharing',
   },
   {
     id: 'finniu',

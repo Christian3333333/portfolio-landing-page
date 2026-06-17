@@ -33,7 +33,7 @@ export default function HeroSection() {
         {/* Right — gradient (region 1) + text (region 2) stacked */}
         <div className="flex flex-col justify-center min-h-[50vh] md:min-h-screen">
           {/* Region 1 — gradient blob, smaller and closer to text */}
-          <div className="relative h-48 md:h-56 overflow-hidden">
+          <div className="relative h-64 md:h-72 overflow-hidden">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Region%201-7PuWApBsmLXTVLUS4SFrym1S2lSgrk.png"
               alt=""

@@ -51,7 +51,7 @@ export default function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="font-heading text-4xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight text-balance mb-4"
+              className="font-heading text-3xl md:text-5xl lg:text-6xl font-semibold text-white leading-tight text-balance mb-4"
             >
               Christian Cabanillas
             </motion.h1>
@@ -61,7 +61,7 @@ export default function HeroSection() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="font-body text-white/80 text-base md:text-lg leading-relaxed mb-6 text-balance"
+              className="font-body text-white/80 text-base md:text-lg leading-relaxed mb-3 text-balance"
             >
               Transforming complexity into scalable products and systems
             </motion.p>

@@ -16,31 +16,31 @@ export default function HeroSection() {
   return (
     <section className="relative bg-[#0B1628] min-h-screen overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-screen">
-        {/* Left — hero image */}
-        <div className="relative w-full h-64 md:h-auto" style={{ marginBottom: '127px' }}>
+        {/* Left — hero image (desktop only) */}
+        <div className="hidden md:block relative w-full md:h-auto" style={{ marginBottom: '127px' }}>
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hero%20image-LVYWUziXc5qsD0tbNKv9ZqnAaRuEf8.png"
             alt="Christian Cabanillas working late at night"
             fill
             priority
             className="object-cover object-center"
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="50vw"
           />
           {/* subtle gradient overlay on right edge to blend into dark bg */}
-          <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-r from-transparent to-[#0B1628] hidden md:block" />
+          <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-r from-transparent to-[#0B1628]" />
         </div>
 
         {/* Right — gradient (region 1) + text (region 2) stacked */}
-        <div className="flex flex-col justify-center min-h-[50vh] md:min-h-screen">
-          {/* Region 1 — gradient blob, smaller and closer to text */}
-          <div className="relative h-64 md:h-72 overflow-hidden">
+        <div className="flex flex-col justify-center min-h-screen md:min-h-screen col-span-1">
+          {/* Region 1 — gradient blob */}
+          <div className="relative h-56 md:h-72 overflow-hidden w-full">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Region%201-7PuWApBsmLXTVLUS4SFrym1S2lSgrk.png"
               alt=""
               fill
               priority
-              className="object-contain object-right-top mix-blend-screen opacity-90"
-              sizes="50vw"
+              className="object-cover object-center mix-blend-screen opacity-90 md:object-contain md:object-right-top"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
 

@@ -44,7 +44,7 @@ const itemVariants = {
 export default function ApproachSection() {
   return (
     <section id="approach" className="bg-[#E8EEF5] py-20 md:py-28">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+      <div className="max-w-7xl mx-auto px-[4.5] md:px-10">
         {/* Heading */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

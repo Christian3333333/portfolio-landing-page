@@ -25,7 +25,7 @@ const principles = [
 export default function PrinciplesSection() {
   return (
     <section id="principles" className="bg-[#0B1628] py-20 md:py-28">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+      <div className="max-w-7xl mx-auto px-[4.5] md:px-10">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

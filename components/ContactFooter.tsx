@@ -33,7 +33,7 @@ const contacts = [
 export default function ContactFooter() {
   return (
     <footer className="bg-[#F5F2EE] pt-0 pb-12">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+      <div className="max-w-7xl mx-auto px-[4.5] md:px-10">
         {/* Divider */}
         <div className="border-t border-[#0B1628]/15 mb-10" />
 
@@ -61,7 +61,7 @@ export default function ContactFooter() {
                   strokeWidth={1.5}
                   className="flex-shrink-0 group-hover:scale-110 transition-transform duration-200"
                 />
-                <span className="underline underline-offset-2 decoration-transparent group-hover:decoration-[#0B1628]/50 transition-all duration-200">
+                <span className={`underline underline-offset-2 decoration-transparent group-hover:decoration-[#0B1628]/50 transition-all duration-200 ${contact.label === 'cjcabanillasingaruca@gmail.com' ? 'text-xs' : 'text-sm'}`}>
                   {contact.label}
                 </span>
               </a>

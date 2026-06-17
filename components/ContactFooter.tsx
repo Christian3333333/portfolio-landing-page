@@ -33,7 +33,7 @@ const contacts = [
 export default function ContactFooter() {
   return (
     <footer className="bg-[#F5F2EE] pt-0 pb-12">
-      <div className="max-w-7xl mx-auto px-[4.5] md:px-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-10">
         {/* Divider */}
         <div className="border-t border-[#0B1628]/15 mb-10" />
 

@@ -30,21 +30,22 @@ export default function HeroSection() {
           <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-r from-transparent to-[#0B1628] hidden md:block" />
         </div>
 
-        {/* Right — text content */}
-        <div className="relative flex flex-col justify-end md:justify-center px-8 md:px-16 py-16 md:py-0">
-          {/* Gradient blob - positioned top-right of the right panel */}
-          <div className="absolute top-0 right-0 w-full h-full pointer-events-none overflow-hidden">
+        {/* Right — gradient (region 1) + text (region 2) stacked */}
+        <div className="flex flex-col min-h-[50vh] md:min-h-screen">
+          {/* Region 1 — gradient blob, fills upper portion */}
+          <div className="relative flex-1 overflow-hidden">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hero%20Gradient-aV86lAIEbgsJZBpsHrVXgIC0vtaRIP.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Regi%C3%B3n%201-n5CAZedrqDUBlbOEs2r4hwDUzAJup9.png"
               alt=""
               fill
               priority
-              className="object-cover object-top opacity-70 mix-blend-screen"
+              className="object-cover object-center mix-blend-screen opacity-80"
               sizes="50vw"
             />
           </div>
 
-          <div className="relative z-10 max-w-lg">
+          {/* Region 2 — text block pinned to bottom */}
+          <div className="px-8 md:px-16 py-10 md:py-12 max-w-lg">
             <motion.h1
               custom={0}
               variants={fadeUp}

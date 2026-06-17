@@ -17,7 +17,7 @@ export default function HeroSection() {
     <section className="relative bg-[#0B1628] min-h-screen overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 min-h-screen">
         {/* Left — hero image (desktop only) */}
-        <div className="hidden md:block relative w-full md:h-auto" style={{ marginBottom: '127px' }}>
+        <div className="hidden md:block relative w-full md:h-auto" style={{ marginTop: '109px', marginBottom: '127px' }}>
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hero%20image-LVYWUziXc5qsD0tbNKv9ZqnAaRuEf8.png"
             alt="Christian Cabanillas working late at night"

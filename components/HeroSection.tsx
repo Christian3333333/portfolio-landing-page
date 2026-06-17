@@ -33,19 +33,19 @@ export default function HeroSection() {
         {/* Right — gradient (region 1) + text (region 2) stacked */}
         <div className="flex flex-col min-h-[50vh] md:min-h-screen">
           {/* Region 1 — gradient blob, fills upper portion */}
-          <div className="relative flex-1 overflow-hidden">
+          <div className="relative flex-1 overflow-hidden mt-0">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Regi%C3%B3n%201-n5CAZedrqDUBlbOEs2r4hwDUzAJup9.png"
               alt=""
               fill
               priority
-              className="object-cover object-center mix-blend-screen opacity-80"
+              className="object-cover object-center mix-blend-screen opacity-80 mt-0"
               sizes="50vw"
             />
           </div>
 
           {/* Region 2 — text block pinned to bottom */}
-          <div className="px-8 md:px-16 py-10 md:py-12 max-w-lg">
+          <div className="px-8 md:px-16 py-10 md:py-12 max-w-lg mt-0">
             <motion.h1
               custom={0}
               variants={fadeUp}

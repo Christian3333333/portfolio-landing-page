@@ -5,7 +5,7 @@ import { MessageCircle, Mail, Link, Download } from 'lucide-react'
 
 const contacts = [
   {
-    label: '+51 916624795',
+    label: '+51 906996355',
     href: 'https://wa.link/wppx6v',
     icon: MessageCircle,
     ariaLabel: 'Contact via WhatsApp',

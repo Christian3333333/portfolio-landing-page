@@ -1,6 +1,6 @@
 # Portfolio — Christian Cabanillas
 
-Landing de una sola página para reclutadores: estrategia de producto, productos de IA y diseño. El sitio está en inglés.
+Portafolio de proyectos sobre estrategia de producto, productos de IA y diseño. El sitio está en inglés.
 
 ## Tecnologías
 
